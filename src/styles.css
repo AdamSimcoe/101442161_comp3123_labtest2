@@ -1,0 +1,133 @@
+/* Created by Adam Simcoe - 101442161 
+Last Updated - November 28th, 2024 */
+
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* Main Weather Container */
+.weather-container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 70vh;
+    margin: 0 auto;
+    width: 40%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+/* Weather Area Information Container */
+.weather-area-information {
+    flex: 0 0 40%;
+    padding: 20px;
+    background-color: #9ed2ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+}
+
+.weather-area-information p.date-time {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #008080;
+}
+
+.weather-icon img {
+    max-width: 100%;
+    height: auto;
+}
+
+.weather-icon {
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Weather Details Container */
+.weather-details {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.weather-temperature, .weather-conditions {
+    flex: 1;
+    padding: 20px;
+    background-color: #c8fafa;
+    border-top: 1px solid #ddd;
+    border: 2px solid #000000;
+}
+.weather-details p {
+    color: #4338a1
+}
+
+/* Search Bar Container */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    background-color: #008080;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar button:hover {
+    background-color: #005959;
+}
+
+/* Footer Container */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    width: 100%;
+
+}
+
+.footer p {
+    font-size: 1.25rem;
+    margin: 5px 0;
+}
+
+/* Error Message Container */
+.error-message {
+    color: #800202;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
